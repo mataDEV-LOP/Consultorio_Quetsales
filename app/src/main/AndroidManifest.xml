@@ -19,7 +19,7 @@
             android:name=".ServicesActivity"
             android:exported="false" />
         <activity
-            android:name=".ExpedientesYRecetasActivity"
+            android:name=".MenuActivity"
             android:exported="false" />
         <activity
             android:name=".ui.login.ServicesActivity"

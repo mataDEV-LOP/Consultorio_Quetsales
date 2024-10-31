@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
                 }else{
                     if(login_username.getText().toString().trim().equals("Doctor") && login_password.getText().toString().trim().equals("12345")){
                         Toast.makeText(LoginActivity.this,"Bienvenido!", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(LoginActivity.this, ServiceActivity.class);
+                        Intent intent = new Intent(LoginActivity.this, MenuActivity.class);
                         startActivity(intent);
                     }else {
                         Toast.makeText(LoginActivity.this,"Acceso Incorrecto!", Toast.LENGTH_SHORT).show();
