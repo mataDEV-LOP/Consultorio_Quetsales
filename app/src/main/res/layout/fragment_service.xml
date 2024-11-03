@@ -11,21 +11,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
 
-        <!--<TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/k7"
-            android:padding="15dp"
-            android:text="Servicios"
-            android:textColor="@color/white"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:drawableLeft="@drawable/baseline_assignment_ind_24"
-            android:drawablePadding="10dp"
-            android:drawableTint="@color/white"
-            />-->
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
